@@ -67,6 +67,8 @@ def compressed_stack_length(lst):
     # TODO: Implement your solution here
     pass
 
+    
+
 
 if __name__ == "__main__":
     # Test your solution here
