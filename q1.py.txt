@@ -57,8 +57,10 @@ def first_stable_character(s):
 	words = s.split()
 	count = counter[words]
 	for w in words :
-	  if w[n] == w[n-1] or w[n]==w[n+1] :
-		return (w , if count[w] > 2)			 
+		if count[w] > 2
+	     for i in range(1, len(w) - 1):
+                if w[i] == w[i-1] or w[i] == w[i+1]:
+                    result.append(w)		 
 
 
 if __name__ == "__main__":
